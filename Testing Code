@@ -1,0 +1,10 @@
+const Discord = require("discord.js");
+const bot = new Discord.Client();
+const token = "NjU0NDUyMDQ4NDk0MDY3NzM0.XfFv_w.reEuF4TZwOL12wjtOzF-Ev7PLsU";
+const PREFIX = "-";
+const version = "1.0.0";
+const ms = require("ms");
+bot.on("ready", () => {
+  console.log(" Bot is now online ");
+});
+bot.login(token);
